@@ -168,5 +168,18 @@
                 </div>
             </div>
         </div>
+        <div class="container mt-5">
+            <x-alert type="danger">
+                Đây là một thông báo lỗi!
+            </x-alert>
+
+            <x-alert type="success">
+                Đây là một thông báo thành công!
+            </x-alert>
+
+            <x-alert>
+                Đây là một thông báo thông thường!
+            </x-alert>
+        </div>
     </body>
 </html>
